@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DataSender</string>
+    <string name="hint">Text to send</string>
+    <string name="send">Send</string>
+
+</resources>

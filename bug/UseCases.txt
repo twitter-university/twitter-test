@@ -1,0 +1,15 @@
+Intent contains:
+	null
+	name of accessible file
+
+	url for null stream
+	url for stream with valid image
+
+	url for query that returns null
+	url for query that returns an empty cursor
+	url for query that returns a multi-row cursor
+	url for query return name of accessible file
+		in "_data" column of single row
+
+	url for query return the url for a stream
+		with valid image in "_data" column of single row

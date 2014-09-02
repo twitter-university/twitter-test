@@ -1,0 +1,14 @@
+
+# clutter
+.DS_*
+
+# Android
+/local.properties
+
+# Gradle
+/build
+/.gradle
+
+# Studio
+*.iml
+/.idea

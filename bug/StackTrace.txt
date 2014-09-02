@@ -1,0 +1,32 @@
+07-03 12:38:00.275: E/AndroidRuntime(16972): Process: com.twitter.android, PID: 16972
+07-03 12:38:00.275: E/AndroidRuntime(16972): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.twitter.android/com.twitter.android.composer.ComposerActivity}: java.lang.IllegalStateException: Couldn't read row 0, col 0 from CursorWindow.  Make sure the Cursor is initialized correctly before accessing data from it.
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2184)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2233)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at android.os.Looper.loop(Looper.java:136)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at java.lang.reflect.Method.invokeNative(Native Method)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at java.lang.reflect.Method.invoke(Method.java:515)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at dalvik.system.NativeStart.main(Native Method)
+07-03 12:38:00.275: E/AndroidRuntime(16972): Caused by: java.lang.IllegalStateException: Couldn't read row 0, col 0 from CursorWindow.  Make sure the Cursor is initialized correctly before accessing data from it.
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at android.database.CursorWindow.nativeGetString(Native Method)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at android.database.CursorWindow.getString(CursorWindow.java:434)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at android.database.AbstractWindowedCursor.getString(AbstractWindowedCursor.java:51)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at android.database.CursorWrapper.getString(CursorWrapper.java:114)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at kz.a(Twttr:116)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at com.twitter.library.util.n.d(Twttr:182)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at com.twitter.library.util.n.c(Twttr:105)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at com.twitter.library.media.model.MediaInfo.a(Twttr:86)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at com.twitter.android.composer.ComposerActivity.ad(Twttr:1733)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at com.twitter.android.composer.ComposerActivity.b(Twttr:640)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at com.twitter.android.client.BaseFragmentActivity.a(Twttr:204)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at com.twitter.library.client.AbsFragmentActivity.onCreate(Twttr:168)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at android.app.Activity.performCreate(Activity.java:5231)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1087)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2148)
+07-03 12:38:00.275: E/AndroidRuntime(16972): 	... 11 more
+
