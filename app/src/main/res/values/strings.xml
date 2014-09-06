@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">DataSender</string>
-    <string name="hint">Text to send</string>
+    <string name="app_name">TweetTest</string>
+
     <string name="send">Send</string>
+
+    <string name="simple_text">Simple Text</string>
+    <string name="quoted">Quoted</string>
+    <string name="structured">Structured</string>
+    <string name="bad_immediate">Bad Immediate</string>
+    <string name="good_immediate">Good Immediate</string>
+    <string name="bad_typed_asset">Bad Typed Asset</string>
+    <string name="good_typed_asset">Good Typed Asset</string>
+    <string name="bad_asset">Bad Asset</string>
+    <string name="good_asset">Good Asset</string>
+    <string name="bad_file">Bad File Desc</string>
+    <string name="good_file">Good File Desc</string>
+    <string name="good_file_ref">Bad File Ref</string>
+    <string name="bad_file_ref">Good File Ref</string>
 
 </resources>
